@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Flush</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body class="bg-dark">
+
+  <nav class="navbar bg-warning fixed-top">
+
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="./index.html">Dark Flush</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+
+        <div class="offcanvas-header text-white">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Exemplos</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="componente exemplo..." aria-label="Search">
+            <button class="btn btn-primary" type="submit">Buscar</button>
+          </form>
+
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <hr class="table-group-divider">
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white-50 disabled" aria-current="page" id="aHome" href="./index.html">Página
+                inicial</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./html/modal.html">Modal</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./html/badge.html">Badges</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="row">
+      <h1 class="text-white text-center">
+        O que é usado na criação de sites?
+      </h1>
+
+      <p class="text-white text-center">
+        Essas são as tecnologias usadas para desenvolver este site.
+      </p>
+    </div>
+
+    <!-- nova linha -->
+
+    <div class="row">
+
+      <!-- Para adicionar a função AutoPlay deve-se adicionar como atributo na tag div abaixo: data-bs-ride="carousel" -->
+      <div id="carouselExemplo" class="carousel slide">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExemplo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExemplo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExemplo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExemplo" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+    
+        <div class="carousel-inner">
+    
+          <div class="carousel-item active">
+            <img src="./assets/html.jfif" class="d-block w-100" alt="imagem 1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>HTML 5</h5>
+              <p>Linguagem de marcação para Web.</p>
+            </div>
+          </div>
+    
+          <div class="carousel-item">
+            <img src="./assets/css.jpg" class="d-block w-100" alt="imagem 2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>CSS 3</h5>
+              <p>Define estilos para um projeto web.</p>
+            </div>
+          </div>
+    
+          <div class="carousel-item">
+            <img src="./assets/javascript.png" class="d-block w-100" alt="imagem 3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>JavaScript</h5>
+              <p>Linguagem de programação de tipagem dinâmica.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="./assets/bootstrap.png" class="d-block w-100" alt="imagem 4">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>BootStrap</h5>
+              <p>É um framework web usando HTML, CSS e JavaScript.</p>
+            </div>
+          </div>
+    
+        </div>
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExemplo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+    
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExemplo" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    
+      </div>
+    </div>
+
+    <!-- outra linha -->
+
+    <div class="row">
+      
+    </div>
+
+  </div>
+
+  <footer class="bg-warning">
+    
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-3">
+          <ul>
+            <li>
+              <a class="text-black" href="">Sobre</a>
+            </li>
+      
+            <li>
+              <a class="text-black" href="">Contate-nos</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-3">
+          <ul>
+            <li>
+              <a class="text-black" href="">Imagine</a>
+            </li>
+      
+            <li>
+              <a class="text-black" href="">Conte-nos</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-3">
+          <ul>
+            <li>
+              <a class="text-black" href="">sus</a>
+            </li>
+      
+            <li>
+              <a class="text-black" href="">pressure</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-3">
+          <ul>
+            <li>
+              <a class="text-black" href="">comassim</a>
+            </li>
+      
+            <li>
+              <a class="text-black" href="">testandin</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      
+    </div>
+
+  </footer>
+
+  <script src="./js/index.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
